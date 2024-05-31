@@ -1,0 +1,30 @@
+/* app.css o styles.css */
+.textarea-large {
+    height: 150px; /* ajusta esta altura según tu preferencia */
+    resize: vertical; /* permite redimensionar verticalmente */
+}
+.btn-rentar {
+    background-color: #4CAF50; /* Color de fondo */
+    border: none;
+    color: white;
+    padding: 15px 32px; /* Espacio interior */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px; /* Margen exterior */
+    cursor: pointer;
+    border-radius: 8px; /* Bordes redondeados */
+    transition-duration: 0.4s;
+}
+
+.btn-rentar:hover {
+    background-color: #45a049; /* Cambio de color al pasar el ratón */
+}
+.card-primary {
+    background-image: url('https://www.grupoorve.com/media/mageplaza/blog/post/c/u/cuanto_mide_departamento_ideal.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh; /* Para que ocupe toda la altura de la ventana */
+}
+
